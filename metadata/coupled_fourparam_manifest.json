@@ -1,0 +1,8 @@
+{
+  "scope": "Repository export integrity, not a prospective freeze or external preregistration.",
+  "sha256": {
+    "code/run_coupled_fourparam.py": "ac7296362f6b8e3fc765ae66ae3b5178296904f506700d5b5109fbf172637780",
+    "code/test_coupled_fourparam.py": "c762f9cf1824186adcec2b6e361571b45ce29291ad837b2485eb5d7868862884",
+    "protocols/COUPLED_FOURPARAM_PROTOCOL.md": "6cd3ff5df847d2854b21b64b5b7329ce769963b34d9e7aaa7a023e9c1b4f6072"
+  }
+}

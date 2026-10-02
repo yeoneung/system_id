@@ -1,0 +1,147 @@
+{
+  "validated_utc": "2026-10-02T20:39:55.050352+00:00",
+  "suite": "all",
+  "passed": true,
+  "commands_passed": 18,
+  "environment": {
+    "python": "3.11.5",
+    "system": "Darwin",
+    "machine": "arm64",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.2"
+  },
+  "blas_threads": 1,
+  "commands": [
+    {
+      "command": [
+        "analyze_multiparameter.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "analyze_coupled_fourparam.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "analyze_robust_feedback.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "analyze_hold_feedback.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "analyze_ce_feedback.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "plot_two_loop_design.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "test_multiparameter_feedback.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "test_coupled_fourparam.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "test_robust_feedback.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "test_hold_feedback.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "run_ce_feedback.py",
+        "--task",
+        "check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "coverage_geometry.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "finite_time_certificate.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "hold_certificate.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "verify_hold_witness.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "finite_time_improved_witness.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "check_capacity_information.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "check_extensions.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "retained_npz_files_unchanged": 67,
+  "computational_functions_unchanged": 33,
+  "regenerated_csv_files_identical": [
+    "multiparameter/contrasts.csv",
+    "coupled_fourparam/contrasts.csv",
+    "robustness/contrasts.csv",
+    "robustness/secondary.csv",
+    "robustness/mesh.csv",
+    "hold/contrasts.csv",
+    "hold/observation_mesh.csv",
+    "ce/contrasts.csv",
+    "ce/descriptive.csv",
+    "ce/observation_mesh.csv",
+    "ce/ce_vs_oracle.csv",
+    "coverage/exact_curves.csv",
+    "finite_time/bounds.csv",
+    "discrete_identification.csv"
+  ],
+  "generated_plots": 10,
+  "scope": "Stored-data reanalysis, structural and analytical numerical checks, bounded-grid HJB and discrete-time rerun. Large continuous-time confirmation trajectories were not regenerated."
+}

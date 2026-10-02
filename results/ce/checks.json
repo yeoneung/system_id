@@ -1,0 +1,11 @@
+{
+  "check_groups": 3,
+  "table_validation": {
+    "points": 1024,
+    "max_relative_score_error": 5.205118579167694e-06,
+    "mismatched_choices": 0,
+    "max_relative_action_regret": 0.0
+  },
+  "van_loan_max_error": 1.0234868508263162e-16,
+  "score_formula_max_error": 8.881784197001252e-16
+}

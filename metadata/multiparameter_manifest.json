@@ -1,0 +1,8 @@
+{
+  "scope": "Repository export integrity, not a prospective freeze or external preregistration.",
+  "sha256": {
+    "code/run_multiparameter_feedback.py": "96f38cecd502b93140a73a2c5ea426b4c2b73e3dfdb323038a6371d1284b858c",
+    "code/test_multiparameter_feedback.py": "e5b26ea6c58a76b943f04f879bad08786731ff184e1d5eae2dce98def8142194",
+    "protocols/MULTIPARAMETER_PROTOCOL.md": "cfa0d9137d6845d1f01160c0abb66bbc1b7be04020ce268633de00ab12aed0f9"
+  }
+}

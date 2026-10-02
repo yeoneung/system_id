@@ -1,0 +1,6 @@
+{
+  "phase": "refinement",
+  "cases": 4,
+  "policy_rollouts": 12288,
+  "elapsed_seconds": 77.94018912315369
+}

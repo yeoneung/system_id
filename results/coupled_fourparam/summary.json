@@ -1,0 +1,245 @@
+{
+  "confirmation": {
+    "cells": 4,
+    "paths_per_policy": 1024,
+    "rollouts": 16384,
+    "adjusted_improvements": 8,
+    "comparisons": 8,
+    "oracle_reduction_range": [
+      23.622035643979387,
+      29.302078694344537
+    ],
+    "periodic_reduction_range": [
+      47.18622854909751,
+      56.15067410373011
+    ]
+  },
+  "refinement": {
+    "cells": 2,
+    "paths_per_policy": 1024,
+    "rollouts": 16384,
+    "adjusted_improvements": 4,
+    "comparisons": 4,
+    "oracle_reduction_range": [
+      26.143431028357746,
+      30.95193375907638
+    ],
+    "periodic_reduction_range": [
+      48.81010603356989,
+      57.287545612221756
+    ]
+  },
+  "source_manifest_verified": true,
+  "pooled_40_comparison_improvements": 40,
+  "development_rollouts": 512,
+  "coordinate_results": [
+    {
+      "phase": "confirmation",
+      "case": 0,
+      "feedback_coordinate_mse": [
+        0.00965426883548863,
+        0.010136283186720215,
+        0.0338425731760202,
+        0.02604384483092091
+      ],
+      "oracle_coordinate_mse": [
+        0.015819799181728964,
+        0.015483157624873697,
+        0.03891964216412213,
+        0.03458509654362655
+      ],
+      "coordinate_reductions_percent": [
+        38.97350576587088,
+        34.53348837296423,
+        13.045004285219763,
+        24.696336186112656
+      ],
+      "guard_failures": 0,
+      "oracle_equivalence_gap": 1.8571116200405413e-08
+    },
+    {
+      "phase": "confirmation",
+      "case": 1,
+      "feedback_coordinate_mse": [
+        0.002359424411079403,
+        0.0026945628202046123,
+        0.008867661961646303,
+        0.007002555718701918
+      ],
+      "oracle_coordinate_mse": [
+        0.003822335189984425,
+        0.004267646389276243,
+        0.009692068980419475,
+        0.009613553772085295
+      ],
+      "coordinate_reductions_percent": [
+        38.27269734842336,
+        36.86068210863207,
+        8.505996195845178,
+        27.159551142938277
+      ],
+      "guard_failures": 0,
+      "oracle_equivalence_gap": 1.8571116200405413e-08
+    },
+    {
+      "phase": "confirmation",
+      "case": 2,
+      "feedback_coordinate_mse": [
+        0.008599125470659887,
+        0.007298853013964101,
+        0.026073140386877025,
+        0.021600837139492266
+      ],
+      "oracle_coordinate_mse": [
+        0.014029837719772769,
+        0.01223571746465821,
+        0.033719308476533455,
+        0.029935681154131664
+      ],
+      "coordinate_reductions_percent": [
+        38.708304098622456,
+        40.347976855086806,
+        22.67593386435457,
+        27.842506645248122
+      ],
+      "guard_failures": 0,
+      "oracle_equivalence_gap": 2.3022393396132657e-06
+    },
+    {
+      "phase": "confirmation",
+      "case": 3,
+      "feedback_coordinate_mse": [
+        0.0018375670302198505,
+        0.001833660310898112,
+        0.006452163885807351,
+        0.00473705175152621
+      ],
+      "oracle_coordinate_mse": [
+        0.0030383014762083095,
+        0.0031252616846705423,
+        0.008027858786493494,
+        0.006767763942695604
+      ],
+      "coordinate_reductions_percent": [
+        39.519924385085446,
+        41.327783209571066,
+        19.62783529945964,
+        30.005659304372255
+      ],
+      "guard_failures": 0,
+      "oracle_equivalence_gap": 2.3022393396132657e-06
+    },
+    {
+      "phase": "refinement",
+      "case": 1,
+      "feedback_coordinate_mse": [
+        0.0023545656132166262,
+        0.002470541675658368,
+        0.007623486206669377,
+        0.006940084129223315
+      ],
+      "oracle_coordinate_mse": [
+        0.00395892258006906,
+        0.004041552897223639,
+        0.009323843113041469,
+        0.008927479854584251
+      ],
+      "coordinate_reductions_percent": [
+        40.52509071355589,
+        38.87147493837043,
+        18.236652909718785,
+        22.261553738935746
+      ],
+      "guard_failures": 0,
+      "oracle_equivalence_gap": 1.8571116200405413e-08
+    },
+    {
+      "phase": "refinement",
+      "case": 3,
+      "feedback_coordinate_mse": [
+        0.0018493191911099244,
+        0.0017679869700721177,
+        0.006071620372249219,
+        0.00476802072541388
+      ],
+      "oracle_coordinate_mse": [
+        0.003081264407958025,
+        0.0030008109429615773,
+        0.008162104616755976,
+        0.0066933321827758714
+      ],
+      "coordinate_reductions_percent": [
+        39.981807911918835,
+        41.083027099093215,
+        25.61207363374397,
+        28.764618351326497
+      ],
+      "guard_failures": 0,
+      "oracle_equivalence_gap": 2.3022393396132657e-06
+    }
+  ],
+  "mesh_results": [
+    {
+      "case": 1,
+      "policy": "oracle_mixture",
+      "change": -0.0003354377011323479,
+      "se": 6.236519458316821e-05
+    },
+    {
+      "case": 1,
+      "policy": "periodic",
+      "change": -0.00033263220714864375,
+      "se": 0.00012039548863785488
+    },
+    {
+      "case": 1,
+      "policy": "state_feedback",
+      "change": -0.00038011554470546464,
+      "se": 6.933711265221657e-05
+    },
+    {
+      "case": 3,
+      "policy": "oracle_mixture",
+      "change": -2.034062468675569e-05,
+      "se": 3.882616817651815e-05
+    },
+    {
+      "case": 3,
+      "policy": "periodic",
+      "change": -8.138917044490663e-05,
+      "se": 9.61221172979825e-05
+    },
+    {
+      "case": 3,
+      "policy": "state_feedback",
+      "change": -0.0002523397107754555,
+      "se": 7.01160440080358e-05
+    }
+  ],
+  "information_diagnostics": [
+    {
+      "case": 0,
+      "oracle_min_mean_information": 0.29834744958542025,
+      "feedback_min_mean_information": 0.36829332773359125,
+      "relative_increase_percent": 23.44443642651106
+    },
+    {
+      "case": 1,
+      "oracle_min_mean_information": 0.30129142786753227,
+      "feedback_min_mean_information": 0.37051436206296084,
+      "relative_increase_percent": 22.97540779217375
+    },
+    {
+      "case": 2,
+      "oracle_min_mean_information": 0.38693595747380016,
+      "feedback_min_mean_information": 0.49325566637021123,
+      "relative_increase_percent": 27.47734007212552
+    },
+    {
+      "case": 3,
+      "oracle_min_mean_information": 0.3887739472351118,
+      "feedback_min_mean_information": 0.4937853467319317,
+      "relative_increase_percent": 27.010914760014515
+    }
+  ]
+}

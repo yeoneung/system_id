@@ -1,0 +1,13 @@
+{
+  "scope": "Repository export integrity, not a prospective freeze or external preregistration.",
+  "sha256": {
+    "protocols/HOLD_PROTOCOL.md": "31180c0d4344ff7667eddaffae36ca05fd724f10cfd09f13b75b84bedb41940e",
+    "code/run_hold_feedback.py": "21fcde129bfb172eeef7b3a6ef3766b128d7dfa7c91d26b2c83199096e41afea",
+    "code/analyze_hold_feedback.py": "27166a4451bac8962cca7aaa164d123041491749f67fdbad88f9deacaa66e214",
+    "code/test_hold_feedback.py": "0d2e239c417ec23afce20dc2dc09e26f46d73fa1e06042fbde52aed58b2f733a",
+    "code/hold_certificate.py": "2842bc721ec82ef5a0de56358f223dcdf16f5c2fa79943ca5050ca0f922fb764",
+    "code/run_robust_feedback.py": "add18c886ab7565c8b2eec92446350e8610a60728441de6eeac3161e8e08cce1",
+    "code/run_multiparameter_feedback.py": "96f38cecd502b93140a73a2c5ea426b4c2b73e3dfdb323038a6371d1284b858c",
+    "code/matrix_design.py": "6656550567f42333f693657c0d679d55e3e28812ce91052a88146aba77218c86"
+  }
+}

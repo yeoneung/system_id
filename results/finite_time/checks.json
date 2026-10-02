@@ -1,0 +1,116 @@
+{
+  "riccati_transform_12_cases": {
+    "max_log_error": 3.199218667759851e-12
+  },
+  "chernoff_envelope_three_cases": true,
+  "matrix_instrument_and_radial_bound_256_cases": {
+    "max_error": 6.40841107656959e-15,
+    "min_radial_slack": 0.3742378522619345
+  },
+  "rational_finite_horizon_certificate": {
+    "T": 1000000,
+    "h": 0.01,
+    "epsilon": 0.004,
+    "exact_rational_lower": "6249544867260000/4227684575199281",
+    "exact_rational_upper": "1848241060585/1288239541632",
+    "displayed_lower": 1.478,
+    "displayed_upper": 1.435,
+    "covering_enclosure_verified": true,
+    "exponential_taylor_enclosure_verified": true,
+    "pi_enclosure_used": "pi < 355/113",
+    "strict_separation": true
+  },
+  "new_trajectory_rollouts": 0,
+  "check_groups": 4,
+  "rows": [
+    {
+      "T": 1000.0,
+      "epsilon": 0.05,
+      "eta": 0.0,
+      "delta": 0.0,
+      "h": 0.10000000000000002,
+      "openloop_lower": 0.9159431477714576,
+      "feedback_upper": 1.4282270248084226,
+      "tail_upper": 0.0003645633531065584,
+      "certified": false
+    },
+    {
+      "T": 10000.0,
+      "epsilon": 0.02,
+      "eta": 0.0,
+      "delta": 0.0,
+      "h": 0.046415888336127795,
+      "openloop_lower": 1.2385575249503396,
+      "feedback_upper": 1.3412406380997812,
+      "tail_upper": 5.91084048996508e-06,
+      "certified": false
+    },
+    {
+      "T": 100000.0,
+      "epsilon": 0.008,
+      "eta": 0.0,
+      "delta": 0.0,
+      "h": 0.021544346900318843,
+      "openloop_lower": 1.4792592204152897,
+      "feedback_upper": 1.3080502181852238,
+      "tail_upper": 6.681721682541883e-09,
+      "certified": true
+    },
+    {
+      "T": 1000000.0,
+      "epsilon": 0.004,
+      "eta": 0.0,
+      "delta": 0.0,
+      "h": 0.010000000000000002,
+      "openloop_lower": 1.6256026366713963,
+      "feedback_upper": 1.295069246846362,
+      "tail_upper": 5.684823467660756e-21,
+      "certified": true
+    },
+    {
+      "T": 1000.0,
+      "epsilon": 0.05,
+      "eta": 0.04,
+      "delta": 0.04,
+      "h": 0.10000000000000002,
+      "openloop_lower": 0.8615091262587572,
+      "feedback_upper": 1.5826682988145417,
+      "tail_upper": 0.00030444057737892717,
+      "certified": false
+    },
+    {
+      "T": 10000.0,
+      "epsilon": 0.02,
+      "eta": 0.04,
+      "delta": 0.04,
+      "h": 0.046415888336127795,
+      "openloop_lower": 1.1473432287941812,
+      "feedback_upper": 1.4867228901124085,
+      "tail_upper": 4.5531280959524365e-06,
+      "certified": false
+    },
+    {
+      "T": 100000.0,
+      "epsilon": 0.008,
+      "eta": 0.04,
+      "delta": 0.04,
+      "h": 0.021544346900318843,
+      "openloop_lower": 1.3546230590178487,
+      "feedback_upper": 1.4493823160555885,
+      "tail_upper": 4.4838620216640005e-09,
+      "certified": false
+    },
+    {
+      "T": 1000000.0,
+      "epsilon": 0.004,
+      "eta": 0.04,
+      "delta": 0.04,
+      "h": 0.010000000000000002,
+      "openloop_lower": 1.4782475260889743,
+      "feedback_upper": 1.4347023076488636,
+      "tail_upper": 2.138947057273207e-21,
+      "certified": true
+    }
+  ],
+  "statement": "Continuous observation, instrument-weighted energy-threshold estimator; not terminal or sampled LS"
+}

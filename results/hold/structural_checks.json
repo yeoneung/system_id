@@ -1,0 +1,11 @@
+{
+  "check_groups": 4,
+  "checks": {
+    "ideal_instrument_and_ito_correction": true,
+    "nonlinear_instrument_divergence_vs_finite_differences": {
+      "max_error": 9.116386812113575e-11
+    },
+    "nested_observation_exact_transition_marginals": true,
+    "development_statistics_stopping_and_switch_budget": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "closed_form_vs_angular_quadrature_108_cases": 1.3322676295501878e-15,
+  "two_action_risk_constant": 1.3149535200324531,
+  "fixed_dictionary_large_anisotropy_limit": true,
+  "dense_dictionary_matches_continuum_ceiling": true,
+  "finite_horizon_information_60_noncommuting_schedules": {
+    "min_slack": 0.03381108716619363,
+    "constant_action_equality": true
+  },
+  "gaussian_cone_sampling_crosscheck": {
+    "seed": 2026130101,
+    "proposals": 200000,
+    "accepted": 88005,
+    "estimated_energy": 0.8887775793151822,
+    "exact_energy": 0.8912869521699203,
+    "mc_se": 0.003049628922520471
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "pointwise_full_parameter_information_and_noncommutation": true,
+  "exact_transition_covariance_against_van_loan": true,
+  "radial_generator_identity_with_unknown_rotations": true,
+  "skew_perturbed_schatten_propagator_bound_50_cases": true,
+  "raw_score_loss_budget_and_parameter_accounting": true,
+  "sampled_transition_sensitive_to_all_unknown_coefficients": true
+}

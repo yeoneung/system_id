@@ -1,0 +1,10 @@
+{
+  "scope": "Repository export integrity, not a prospective freeze or external preregistration.",
+  "sha256": {
+    "protocols/CE_PROTOCOL.md": "c813633e70b30476148f5d6919758ee4257878415313a698e6b19bda4278a812",
+    "code/run_ce_feedback.py": "0f2f30ce6cbab3e99714f2e53dce2c74188b335bf1fef72f9ef81c02df24245f",
+    "code/analyze_ce_feedback.py": "b9e91433e9b135520bc98f89b1df3d99ff212d222577e668e30cfcd72f56c8df",
+    "code/run_multiparameter_feedback.py": "96f38cecd502b93140a73a2c5ea426b4c2b73e3dfdb323038a6371d1284b858c",
+    "results/ce/energy_table.npz": "1f6a10cdbcd02ddcecfdeadfab333fac14a037b02b2776bff2aa2be701425500"
+  }
+}

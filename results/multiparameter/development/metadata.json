@@ -1,0 +1,11 @@
+{
+  "phase": "development",
+  "n": 128,
+  "dt": 0.02,
+  "seed_base": 2026111100,
+  "elapsed_seconds": 2.8248698711395264,
+  "estimator": "Continuous-time LS with trapezoidal mesh approximation; not exact discrete MLE.",
+  "selector": "Parameter-free largest squared projection; equal to one-step expected-energy greedy.",
+  "primary": "Feedback vs oracle stationary optimum and periodic, 32 simultaneous paired contrasts.",
+  "model": "Coupled unknown damping and unknown skew rotations; separate from original 6-state 4-coefficient model."
+}

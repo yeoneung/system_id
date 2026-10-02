@@ -1,0 +1,15 @@
+{
+  "check_groups": 1,
+  "T": 65536,
+  "h": 0.06,
+  "epsilon": 0.009,
+  "displayed_upper": 1.481,
+  "displayed_lower": 1.493,
+  "exact_upper": "200105272858437341/135154706173534080",
+  "exact_lower": "9540159441076224/6386835930426425",
+  "covering_enclosure_verified": true,
+  "exponential_taylor_enclosure_verified": true,
+  "strict_separation": true,
+  "new_trajectory_rollouts": 0,
+  "scope": "Continuous projection and observation; different local box from the retained T=1e6 witness"
+}

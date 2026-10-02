@@ -1,0 +1,35 @@
+{
+  "confirmation": {
+    "cells": 16,
+    "paths_per_policy": 1024,
+    "rollouts": 81920,
+    "comparisons": 32,
+    "adjusted_improvements": 32,
+    "oracle_reduction_range": [
+      18.327857526067948,
+      39.489213513290025
+    ],
+    "periodic_reduction_range": [
+      32.79337603483691,
+      56.57752849025106
+    ]
+  },
+  "refinement": {
+    "cells": 4,
+    "paths_per_policy": 1024,
+    "rollouts": 40960,
+    "comparisons": 8,
+    "adjusted_improvements": 8,
+    "oracle_reduction_range": [
+      35.444282254574624,
+      39.42358720321797
+    ],
+    "periodic_reduction_range": [
+      45.03605579227252,
+      56.92247478818126
+    ]
+  },
+  "source_manifest_verified": true,
+  "development_rollouts": 2560,
+  "scope": "Structured coupled two/four-parameter models; continuous-statistic mesh approximations, not exact sampled-data MLE."
+}

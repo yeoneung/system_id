@@ -1,0 +1,8 @@
+{
+  "phase": "confirmation",
+  "cases": 4,
+  "physical_policy_rollouts": 8192,
+  "observation_meshes": 2,
+  "note": "Two meshes and two estimators reuse the same paths, not additional rollouts",
+  "elapsed_seconds": 313.82899379730225
+}

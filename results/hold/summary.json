@@ -1,0 +1,50 @@
+{
+  "primary_contrasts": 24,
+  "family_alpha": 0.05,
+  "negative_adjusted_upper": 18,
+  "terminal_gain_range": [
+    19.51435854742013,
+    52.347866518097995
+  ],
+  "threshold_gain_range": [
+    7.405364127939085,
+    25.60029227900885
+  ],
+  "observation_relative_change_range": [
+    -0.9405536355502634,
+    0.700757407778088
+  ],
+  "guard_failures": 0,
+  "cases": [
+    {
+      "case": 0,
+      "guard_failures": 0,
+      "projection_threshold_failures": 26,
+      "physical_policy_rollouts": 2048
+    },
+    {
+      "case": 1,
+      "guard_failures": 0,
+      "projection_threshold_failures": 14,
+      "physical_policy_rollouts": 2048
+    },
+    {
+      "case": 2,
+      "guard_failures": 0,
+      "projection_threshold_failures": 2,
+      "physical_policy_rollouts": 2048
+    },
+    {
+      "case": 3,
+      "guard_failures": 0,
+      "projection_threshold_failures": 125,
+      "physical_policy_rollouts": 2048
+    }
+  ],
+  "confirmation_physical_policy_rollouts": 8192,
+  "development_physical_policy_rollouts": 96,
+  "nested_meshes_share_exact_same_physical_paths": true,
+  "estimator_reconstruction": true,
+  "source_manifest_verified": true,
+  "finite_horizon_sampled_risk_certified": false
+}

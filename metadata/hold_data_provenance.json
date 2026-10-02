@@ -1,0 +1,10 @@
+{
+  "files": 5,
+  "sha256": {
+    "results/hold/confirmation/case0.npz": "31a69902f7b3452b6db67c744b384c51d8207e8c3a5110022f6b5e29b0f57f6b",
+    "results/hold/confirmation/case1.npz": "4fdb084713927ba3b523eabeb9097b482f3ef33faf07edc838ccfd5ef0ffb1ed",
+    "results/hold/confirmation/case2.npz": "21287953b409e9e63f9756a606440fffe32bb68d331f899c98afb7845cbe44db",
+    "results/hold/confirmation/case3.npz": "a21fa1b33805724de7dcc3a6c6beae187ab8dfe3a9e85a7f58d27a8ab0414171",
+    "results/hold/development/case0.npz": "a85687ecbe3ac4b63da31e5c31ec9c632b6af214f09776c383cf694b64f69fe8"
+  }
+}

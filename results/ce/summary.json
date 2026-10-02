@@ -1,0 +1,39 @@
+{
+  "cells": 4,
+  "paths_per_policy": 1024,
+  "confirmation_policy_rollouts": 12288,
+  "development_policy_rollouts": 96,
+  "total_policy_rollouts": 12384,
+  "primary_contrasts": 8,
+  "comparisons": {
+    "oracle_fixed": {
+      "reduction_range": [
+        28.752851775545786,
+        35.96063129248116
+      ],
+      "adjusted_improvements": 4
+    },
+    "stationary_ce": {
+      "reduction_range": [
+        28.793393776020647,
+        36.676797491930834
+      ],
+      "adjusted_improvements": 4
+    }
+  },
+  "visited_table_validation": {
+    "points": 2048,
+    "max_relative_score_error": 5.437375785065392e-06,
+    "mismatched_choices": 0,
+    "max_relative_action_regret": 0.0
+  },
+  "terminal_guard_failures": 0,
+  "observation_mesh_percent_range": [
+    -0.7696950041504058,
+    1.5358853893686852
+  ],
+  "observation_mesh_adjusted_resolved": 2,
+  "ce_vs_oracle_adjusted_resolved": 0,
+  "analysis_check_groups": 2,
+  "all_cells_reported": true
+}

@@ -1,0 +1,8 @@
+{
+  "full_rank_nonisotropic_information": true,
+  "noncommuting_unknown_features": true,
+  "all_16_parameter_corners_common_stability": true,
+  "van_loan_covariance": true,
+  "numerical_a_optimality_residual": true,
+  "raw_score_and_budget_accounting": true
+}

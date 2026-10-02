@@ -1,0 +1,152 @@
+{
+  "scientific_check_groups": 5,
+  "new_policy_rollouts": 0,
+  "check_groups": [
+    "noncommuting_transition_and_covariance_bounds",
+    "nonadaptive_power_bound",
+    "constant_loop_finite_horizon_equalities",
+    "full_circle_quadrature_and_equal_frequencies",
+    "two_block_information_and_power_transients"
+  ],
+  "bounds": {
+    "cases": 36,
+    "max_violations": [
+      0.0,
+      0.0,
+      1.140588318238045e-11,
+      0.0
+    ],
+    "max_ode_vs_expm_error": 7.610962888252452e-12
+  },
+  "equality_max_error": 1.3105072582675348e-12,
+  "quadrature_error": 1.1102230246251565e-16,
+  "example": {
+    "d": 2,
+    "p": 1,
+    "a": 1,
+    "b": 4,
+    "limiting_loop_frequencies": [
+      0.5,
+      0.5
+    ],
+    "blocks": {
+      "J": 0.625,
+      "C": 1.6,
+      "P": 4.5
+    },
+    "projection": {
+      "J": 0.7604831537888276,
+      "C": 1.314953520032453,
+      "P": 6.1257978454659305
+    },
+    "risk_reduction_percent": 17.815404997971697,
+    "occupation_quadrature": 0.5000000000000001
+  },
+  "two_block_convergence": [
+    {
+      "theta": -0.2,
+      "T": 8.0,
+      "J": 0.5011713174122885,
+      "P": 3.4152012484608787,
+      "T_information_deficit": 0.2763437464159777
+    },
+    {
+      "theta": -0.2,
+      "T": 32.0,
+      "J": 0.527078018707483,
+      "P": 3.6662946428571432,
+      "T_information_deficit": 0.27636054421768463
+    },
+    {
+      "theta": -0.2,
+      "T": 128.0,
+      "J": 0.533555218962585,
+      "P": 3.7290736607142856,
+      "T_information_deficit": 0.2763605442176953
+    },
+    {
+      "theta": -0.2,
+      "T": 512.0,
+      "J": 0.5351745190263606,
+      "P": 3.7447684151785716,
+      "T_information_deficit": 0.27636054421765266
+    },
+    {
+      "theta": -0.2,
+      "T": 2048.0,
+      "J": 0.5355793440423045,
+      "P": 3.7486921037946432,
+      "T_information_deficit": 0.2763605442175958
+    },
+    {
+      "theta": 0.0,
+      "T": 8.0,
+      "J": 0.5742344748106828,
+      "P": 4.00797761051217,
+      "T_information_deficit": 0.40612420151453765
+    },
+    {
+      "theta": 0.0,
+      "T": 32.0,
+      "J": 0.6123046875000002,
+      "P": 4.376953125000002,
+      "T_information_deficit": 0.4062499999999929
+    },
+    {
+      "theta": 0.0,
+      "T": 128.0,
+      "J": 0.621826171875,
+      "P": 4.46923828125,
+      "T_information_deficit": 0.40625
+    },
+    {
+      "theta": 0.0,
+      "T": 512.0,
+      "J": 0.62420654296875,
+      "P": 4.4923095703125,
+      "T_information_deficit": 0.40625
+    },
+    {
+      "theta": 0.0,
+      "T": 2048.0,
+      "J": 0.6248016357421875,
+      "P": 4.498077392578125,
+      "T_information_deficit": 0.40625
+    },
+    {
+      "theta": 0.2,
+      "T": 8.0,
+      "J": 0.6752817541937681,
+      "P": 4.839916829064528,
+      "T_information_deficit": 0.6503775453972231
+    },
+    {
+      "theta": 0.2,
+      "T": 32.0,
+      "J": 0.7362226237882356,
+      "P": 5.428402549343604,
+      "T_information_deficit": 0.6514023545659349
+    },
+    {
+      "theta": 0.2,
+      "T": 128.0,
+      "J": 0.7514898664733379,
+      "P": 5.575850637335526,
+      "T_information_deficit": 0.6514023545706351
+    },
+    {
+      "theta": 0.2,
+      "T": 512.0,
+      "J": 0.7553066771446503,
+      "P": 5.612712659333882,
+      "T_information_deficit": 0.6514023545706209
+    },
+    {
+      "theta": 0.2,
+      "T": 2048.0,
+      "J": 0.7562608798124784,
+      "P": 5.62192816483347,
+      "T_information_deficit": 0.6514023545705641
+    }
+  ]
+}

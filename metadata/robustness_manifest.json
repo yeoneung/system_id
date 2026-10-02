@@ -1,0 +1,10 @@
+{
+  "scope": "Repository export integrity, not a prospective freeze or external preregistration.",
+  "sha256": {
+    "protocols/ROBUSTNESS_PROTOCOL.md": "10b09b6d95b307395341a8c7c871c5ec9b3a96c844285f9da56cbe8edf1ddf95",
+    "code/run_robust_feedback.py": "add18c886ab7565c8b2eec92446350e8610a60728441de6eeac3161e8e08cce1",
+    "code/test_robust_feedback.py": "b0a8d843578e1ff43b52f636b7367e9ebf9c0665876d6087a6e6c0289a297fb0",
+    "code/matrix_design.py": "6656550567f42333f693657c0d679d55e3e28812ce91052a88146aba77218c86",
+    "code/run_multiparameter_feedback.py": "96f38cecd502b93140a73a2c5ea426b4c2b73e3dfdb323038a6371d1284b858c"
+  }
+}

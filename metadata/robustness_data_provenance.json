@@ -1,0 +1,23 @@
+{
+  "files": 18,
+  "sha256": {
+    "results/robustness/confirmation/case0.npz": "d21363758ab094b04460797209a15bd468fe851a56986484ee030eabf347074f",
+    "results/robustness/confirmation/case1.npz": "325f7709974ee7167f51d84059f793113865007b8176f4cab7ee91c3206ffdc9",
+    "results/robustness/confirmation/case2.npz": "a0b57fb9bb1970c546734f9812be91df18e2d8a56d7d7136eefa69fc9fd4c68a",
+    "results/robustness/confirmation/case3.npz": "9c7b173f02a4887db33e998d699c70aa745ad0456ea38285587ccf4a32290154",
+    "results/robustness/confirmation/case4.npz": "49bbdb4146481c4f9a91f476267a8a89b7e3b7d7a07c63e5d73e30384cdbfa75",
+    "results/robustness/confirmation/case5.npz": "76125a8127d76141afef55354b77b7c97842c7196915dc57487464b42edfe243",
+    "results/robustness/confirmation/case6.npz": "fbe62cba9941d3f504f381cd31f94412c5098ffbcf34329ba0b461efb4cc02ff",
+    "results/robustness/confirmation/case7.npz": "9397f6b7410e86fa705bd62a9084d323d461111f45256c8669eed7d945f8af65",
+    "results/robustness/confirmation/case8.npz": "a3a9a215c3bb5dec82174b1bd294c3f6c19afe83c519fdc62ef021f28b57ba31",
+    "results/robustness/development/case0.npz": "f3ae8ff18cdc01ba1b4f74995df840ca48b80b07eb98cc835e23cb13fb201c49",
+    "results/robustness/refinement/case1.npz": "bc78f0d40a37b5dafebcb3249dbeae59fa0f550f73cd738a0dede68ae9ea364a",
+    "results/robustness/refinement/case1_coarse.npz": "029a3ba1a08e8e8ce905293a64caafb3bcf1880537f22a5d50d17e3dc5ac821a",
+    "results/robustness/refinement/case2.npz": "b4bf2e639e598603268d21fb09fd9fbc91c2fff5484b42a7df52c3e88c4a7d44",
+    "results/robustness/refinement/case2_coarse.npz": "4e6f785b9b432db0c7dcc28da22d1e78b65cfd065aaea2985f5f45de073426c3",
+    "results/robustness/refinement/case3.npz": "f93fdce345f57c7d95a095420395d64dd053f2d4ee5c2ac58e5326679b47fd72",
+    "results/robustness/refinement/case3_coarse.npz": "7eab866ab4b2ae6e610fdd39c7f67fee61f01cf803ce5abef421c9dc226a5a17",
+    "results/robustness/refinement/case4.npz": "9a15204d273f152e821ee5d1f51557cd54c88a9daa37aaad85cf45f8b85b43ea",
+    "results/robustness/refinement/case4_coarse.npz": "3a7fa700f79f67dfcf1332119d7afecb8723583f9e36cceeaa34953ea7fc10e4"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "signed_subset_coverage_and_fast_selector": true,
+  "perturbed_frame_stationary_information_and_oracles": {
+    "max_solver_gap": 2.220446049250313e-16,
+    "min_sampled_nonscalar_deviation": 0.0017222099374056888
+  },
+  "sixty_convex_gain_noncommuting_propagators": {
+    "min_slack": 0.18443955823690816
+  },
+  "rank_one_extreme_equality": true,
+  "robust_bound_and_finite_mode_certificate": {
+    "q": 0.30827781826282163,
+    "ideal": 1.3854012460312977,
+    "eta_delta_004": 1.129181115852091
+  },
+  "matrix_estimator_loss_and_schedule_accounting": true
+}
